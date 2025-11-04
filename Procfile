@@ -1,1 +1,1 @@
-web: gunicorn engineering_agent.wsgi
+web: gunicorn engineering_agent.wsgi --log-file -
